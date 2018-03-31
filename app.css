@@ -20,7 +20,7 @@ margin: auto;
 padding: 1em;
 width: 80%;
 }
-
+  
 .destination-container {
 display: flex;
 flex-flow: wrap;
@@ -38,6 +38,10 @@ display: flex;
 justify-content: center;
 align-items: center;
 text-align: center;
+}
+
+.destination:hover h2 {
+transform: rotate(0deg);
 }
 
 h2 {
